@@ -31,7 +31,7 @@ Run the main script to launch the interactive menu:
 
 ```bash
 python passguard.py
-
+```
 
 -   Lee-roy Breat Chimuka - Connect with me on www.linkedin.com/in/lee-roy-chimuka
 
