@@ -1,15 +1,17 @@
 # PassGuard
 
-PassGuard is a comprehensive Python toolkit for password security. It currently features a robust **password strength checker** and is designed to grow into a complete suite of tools, including a secure password generator and compromised password detection.
+**PassGuard** is a comprehensive cybersecurity toolkit designed to help users secure their digital identity. Built with Python, it combines robust password analysis, secure credential generation, and data breach detection into a single, professional command-line interface.
 
-### Features
+### 🚀 Features
 
--   **Password Strength Checker:** A command-line tool that evaluates a password based on a set of criteria to determine its strength.
--   **Password Generator (Coming Soon):** A feature to create a strong, random password.
--   **Compromised Password Detection (Coming Soon):** Integration with the "Have I Been Pwned" service to check for data breaches.
--   **URL Validator (Coming Soon):** A tool to check if a URL is malicious or associated with phishing.
--   **GUI (Coming Soon)**
-### How to Use
+* **✅ Password Strength Checker:** Evaluates passwords against industry standards (length, complexity, and entropy).
+* **✅ Secure Password Generator:** Creates cryptographically strong, random passwords using the `secrets` module to ensure high entropy.
+* **✅ Compromised Password Detection:** Safely checks if your password has appeared in known data breaches using the **Have I Been Pwned** API.
+    * *Security Note:* Uses **k-Anonymity** (hashing) to ensure your actual password is never sent over the internet.
+* **🚧 Phishing URL Scanner:** (Coming Soon) Check suspicious links for malware.
+* **🚧 GUI:** (Coming Soon) A graphical user interface for easier usage.
+
+### 🛠️ Installation
 
 1.  **Clone the Repository:**
     ```bash
@@ -17,10 +19,19 @@ PassGuard is a comprehensive Python toolkit for password security. It currently 
     cd PassGuard
     ```
 
-2.  **Run the Checker:**
+2.  **Install Requirements:**
+    This tool requires a few external libraries for the interface and API connections.
     ```bash
-    python passguard.py
+    pip install requests colorama pyfiglet
     ```
+
+### 💻 How to Use
+
+Run the main script to launch the interactive menu:
+
+```bash
+python passguard.py
+
 
 -   Lee-roy Breat Chimuka - Connect with me on www.linkedin.com/in/lee-roy-chimuka
 
