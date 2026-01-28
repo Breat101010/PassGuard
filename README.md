@@ -37,4 +37,4 @@ python passguard.py
 
 ### Acknowledgment
 
-*This project is a part of my journey to build a professional cybersecurity portfolio. I am eager to continue learning and adding new features.*
+*This project is a part of my journey to build a professional cybersecurity portfolio. I am eager to continue learning and adding new features. We are growing bit by bit!!*
