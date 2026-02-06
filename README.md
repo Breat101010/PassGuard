@@ -8,7 +8,7 @@
 * **✅ Secure Password Generator:** Creates cryptographically strong, random passwords using the `secrets` module to ensure high entropy.
 * **✅ Compromised Password Detection:** Safely checks if your password has appeared in known data breaches using the **Have I Been Pwned** API.
     * *Security Note:* Uses **k-Anonymity** (hashing) to ensure your actual password is never sent over the internet.
-* **🚧 Phishing URL Scanner:** (Coming Soon) Check suspicious links for malware.
+* * ✅ **Phishing URL Scanner:** Detects malicious links using the **VirusTotal API** (Requires free API key).
 * **🚧 GUI:** (Coming Soon) A graphical user interface for easier usage.
 
 ### 🛠️ Installation
